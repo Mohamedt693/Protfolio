@@ -77,7 +77,7 @@ function About({isDarkMode}) {
                     initial={{opacity: 0}}
                     whileInView={{opacity: 1}}
                     transition={{duration: 0.6, delay: 1.5}}  
-                    className='flex items-center gap-3 sm:gap-5'>
+                    className='grid grid-cols-4 md:grid-cols-9 gap-3'>
                         {toolsData.map((tool, index)=>{
                             return(
                                 <motion.li

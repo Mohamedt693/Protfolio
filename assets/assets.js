@@ -115,7 +115,7 @@ export const workData = [
 
 export const serviceData = [
     { title: 'Languages & Frameworks', description: 'HTML5, CSS3, JavaScript, Typescript, React, Next.js', link: '' },
-    { title: 'Styling / UI Libraries', description: 'Sass, Tailwind, Bootstrap, Material Ui, ShadCN, Motion, Lucid-React, Font Awesome,  Heroicons', link: '' },
+    { title: 'Styling / UI Libraries', description: 'Sass, Tailwind, Bootstrap, Material Ui, ShadCN, Framer Motion, Lucid-React, Font Awesome,  Heroicons', link: '' },
     { title: 'Performance & Optimization', description: 'Lazy Loading, Suspense, Debounce, Memoization, SSR, SSG, SEO Basics, API Proxy', link: '' },
     { title: 'State Management', description: 'Redux Toolkit, Context Api, Zustand', link: '' },
     { title: 'Testing & Development Tools', description: 'React Testing Library, Jest, Vitest, vitest-mock-axios, msw', link: '' },

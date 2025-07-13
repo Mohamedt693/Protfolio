@@ -32,7 +32,7 @@ export default function Home() {
 
 
   return (
-    <>
+    <div>
     <Suspense fallback={null}>
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
     </Suspense>
@@ -54,6 +54,6 @@ export default function Home() {
     <Suspense fallback={null}>
       <Footer isDarkMode={isDarkMode}/>
     </Suspense>
-    </>
+    </div>
   );
 }

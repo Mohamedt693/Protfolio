@@ -35,7 +35,7 @@ function Navbar({isDarkMode, setIsDarkMode}) {
         <div className='w-11/12 fixed top-0 right-0 -z-10 translate-y-[-80%] dark:hidden'>
             <Image priority src={assets.header_bg_color} alt='' className='w-full'/>
         </div>
-        <nav className={`w-full fixed py-4 px-5 lg:px-8 xl:px-[8%] flex items-center justify-between z-50
+        <nav className={`w-full fixed py-4 px-5 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 
         ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20" : ""}`}>
             <a href="#home">
                 <Image src={isDarkMode ? assets.logo_dark : assets.logo} className='w-32 cursor-pointer mr-14' alt=''/>
