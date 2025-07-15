@@ -31,8 +31,8 @@ function Skills({isDarkMode}) {
             whileInView={{opacity: 1}}
             transition={{duration: 0.5, delay: 0.7}}  
             className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Totam, id in reprehenderit ea dolores alias.
+                I craft modern, responsive web interfaces with clean code and elegant animations.
+                My skills blend creativity and technology to deliver seamless digital experiences.
             </motion.p>
             <motion.div 
             initial={{opacity: 0}}

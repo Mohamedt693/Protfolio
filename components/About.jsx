@@ -82,7 +82,7 @@ function About({isDarkMode}) {
                             return(
                                 <motion.li
                                 whileHover={{scale: 1.1}}
-                                className='w-12 sm:w-14 flex items-center justify-center 
+                                className='w-12 sm:w-14 flex items-center justify-center bg-white
                                 aspect-square border border-gray-400 rounded-lg cursor-pointer
                                 hover:-translate-y-1 duration-500' 
                                 key={index}>
