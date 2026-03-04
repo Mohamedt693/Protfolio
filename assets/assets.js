@@ -88,10 +88,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'ToDo project',
-        description: 'Interactive ToDo List App',
-        bgImage: '/ToDo-bg.png',
-        link: "https://to-do-gules-delta.vercel.app"
+        title: 'Docket',
+        description: 'Interactive NoteList App',
+        bgImage: '/docket-bg.png',
+        link: "https://docket-swart.vercel.app/"
     },
     {
         title: 'Cloudy',
